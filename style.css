@@ -1,0 +1,86 @@
+:root {
+  --padding-cards : 20px;
+  --bg-color: #0b0e14;
+  --bg-container: #272b33;
+  --text-color: #d0d3d4;
+  --font-color: #e5e7e9;
+  --green-color: #9aedb4;
+  --margin-spaces-checkboxes: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+.hero-body p {
+  color: #8c919c;
+}
+
+#password {
+  color: #d0d3d4;
+}
+
+.notification {
+  background-color: var(--bg-color);
+}
+
+.card {
+  background-color: var(--bg-container);
+  color: var(--font-color);
+  padding: var(--padding-cards);
+}
+
+.fa-copy {
+  color: var(--green-color);
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.content label {
+  margin-bottom: var(--margin-spaces-checkboxes);
+}
+
+.content input {
+  margin-right: var(--margin-spaces-checkboxes);
+}
+
+.slider {
+  -webkit-appearance: none;
+  margin: 15px auto;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background: #111111;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--green-color);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--green-color);
+  cursor: pointer;
+}
+
